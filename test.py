@@ -1,7 +1,7 @@
 from matplotlib.mlab import griddata
 import numpy as np
 # test case that scikits.delaunay fails on, but natgrid passes..
-data = np.array([[-1, -1], [-1, 0], [-1, 1],
+data = np.array([[-1, -1], [-1, 0], [-1, 1],[0, 0],
                  [ 0, -1], [ 0, 0], [ 0, 1],
                  [ 1, -1 - np.finfo(np.float_).eps], [ 1, 0], [ 1, 1],
                 ])
